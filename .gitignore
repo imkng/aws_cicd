@@ -1,0 +1,52 @@
+# ======================
+# Java / Maven / Gradle
+# ======================
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ======================
+# Spring Boot
+# ======================
+application-local.yml
+application-dev.yml
+application-prod.yml
+*.log
+
+# ======================
+# IDEs
+# ======================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Git
+# ======================
+.git/
